@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May  5 16:25:17 2020
+Created on Fri Jun 18 15:47:17 2021
 
 @author: Fabretto
 """
 
-web: gunicorn RetPrevApp:app
+web: gunicorn TagHintApp:app
