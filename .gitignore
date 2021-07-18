@@ -5,4 +5,7 @@ instance/
 
 *.pkl
 *.yml
+*.joblib
 herokulog.txt
+* - template.py
+* - template.html

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May  5 22:55:17 2020
+Created on Fri Jun 18 17:10:15 2021
 
 @author: Fabretto
 """
 
-#! envs/oc-proj04 python
-from RetPrevApp import app
+#! envs/oc-proj06 python
+from TagHintApp import app
 
 if __name__ == "__main__":
     app.run(debug=True)
