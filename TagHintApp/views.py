@@ -54,6 +54,12 @@ def form():
     form = MyForm()
     
     if form.validate_on_submit():
-        input_tokens = prj6.tokenize_raw(form.title_text.data, tokenizer, t_vocabulary)
-        return render_template('resultat.html', text=input_tokens)
+        input_title = form.title_text.data
+        input_tokens = prj6.tokenize_raw(input_title, tokenizer, t_vocabulary)
+        prediction = title_pipeline.predict(np.array([input_tokens]))
+        tags_str = ' '.join(tag_dictionary[ndx] for ndx in tuple(prediction.getrow(0).nonzero()[1]))
+        return render_template('resultat.html',
+                               input_title=input_title,
+                               input_tokens=input_tokens,
+                               tags=tags_str)
     return render_template('form.html', form=form)
