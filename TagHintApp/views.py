@@ -6,19 +6,10 @@ Created on Thu Jul 15 20:02:35 2021
 """
 
 import numpy as np
-import pandas as pd
 
 import os
 
 from joblib import load
-
-import regex
-import nltk
-
-from sklearn.pipeline import Pipeline
-from sklearn.svm import SVC
-from skmultilearn.problem_transform import BinaryRelevance
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Import of my functions and module
 import TagHintApp.Projets6Lib as prj6
