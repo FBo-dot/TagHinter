@@ -27,9 +27,6 @@ scipy==1.4.1
 six==1.16.0
 tqdm==4.61.2
 typing_extensions==3.10.0.0
-ucrt==10.0.20348.0
-vc==14.2
-vs2015_runtime==14.29.30037
 werkzeug==2.0.1
 wincertstore==0.2
 wtforms==2.3.2
