@@ -14,7 +14,7 @@
         <form method="POST" action="{{ url_for('form') }}">
                 {{ form.csrf_token }}
             <dl>
-                {{ render_field(form.title_text) }}
+                {{ render_field(form.title_text, style="margin: 0px; width: 630px; height: 60px;") }}
                            
             </dl>    
                 <input type="submit" value="Submit">

@@ -8,17 +8,17 @@ Defines functions for the Project 6 'Catégorisez automatiquement des questions'
 
 """
 
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import scipy.stats as st
+# import numpy as np
+# import pandas as pd
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# import scipy.stats as st
 
 from collections import defaultdict
 
-import regex
-import nltk, pprint
-from nltk import word_tokenize, regexp_tokenize
+# import regex
+import nltk
+# from nltk import word_tokenize, regexp_tokenize
 
 
 def to_text(token_chain):
