@@ -11,7 +11,7 @@ itsdangerous==2.0.1
 jinja2==3.0.1
 joblib==0.14.1
 markupsafe==2.0.1
-mkl==2021.1
+mkl==2021.1.1
 mkl-service==2.3.0
 mkl_fft==1.3.0
 mkl_random==1.2.0
