@@ -6,7 +6,6 @@ proj6/
 
 *.pkl
 *.yml
-*.joblib
 requirements.csv
 herokulog.txt
 * - template.py
